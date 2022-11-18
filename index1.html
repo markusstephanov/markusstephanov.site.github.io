@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css2/main.css"></link>
+	<title>Парсинг сайтов</title>
+	<style>@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+	</style>
+</head>
+<nav class="navbar is-transparent">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https://bulma.io">
+      <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+    </a>
+    <div class="navbar-burger" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="index1.html">
+        Домой
+      </a>
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="index1.html">
+          Страницы
+        </a>
+        <div class="navbar-dropdown is-boxed">
+          <a class="navbar-item" href=index1.html>
+            1. Текст
+          </a>
+          <a class="navbar-item" href=index2.html>
+            2. Видео
+          </a>
+          <a class="navbar-item" href=index3.html>
+            3. Гиф
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="bd-tw-button button" data-social-network="Twitter" data-social-action="tweet" data-social-target="https://bulma.io" target="_blank" href="https://twitter.com/intent/tweet?text=Bulma: a modern CSS framework based on Flexbox&amp;hashtags=bulmaio&amp;url=https://bulma.io&amp;via=jgthms">
+              <span class="icon">
+                <i class="fab fa-twitter"></i>
+              </span>
+              <span>
+                Tweet
+              </span>
+            </a>
+          </p>
+          <p class="control">
+            <a class="button is-primary" href="https://github.com/jgthms/bulma/releases/download/0.9.4/bulma-0.9.4.zip">
+              <span class="icon">
+                <i class="fas fa-download"></i>
+              </span>
+              <span>Download</span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<body>
+	<div class="columns">
+		<div class="column1">
+			<div class="box has-background-white">
+    <aside class="menu">
+        <p class="menu-label has-text-grey-dark">
+            Навигация
+        </p>
+        <ul class="menu-list">
+            <li>
+                <a class="has-text-grey-dark" href="#0">
+                    Парсинг сайтов
+                </a>
+            </li>    
+            <ul class="menu-list">
+                <li>
+                  <a class="has-text-grey-dark" href="#11">Механизмы защиты от&nbsp;парсеров</a>
+                  <ul>
+                    <li><a class="has-text-grey-dark" href="#2">Проверка заголовка</a></li>
+                    <li><a class="has-text-grey-dark" href="#3">Отпечатки TCP/IP</a></li>
+                    <li><a class="has-text-grey-dark" href="#4">Блокировка IP</a></li>
+                    <li><a class="has-text-grey-dark" href="#5">Геоблокировка</a></li>
+                  </ul>
+                </li>
+                <li>
+                    <a class="has-text-grey-dark" href="#12">Обнаружение&nbsp;парсера&nbsp;на&nbsp;фронтэнде</a>
+                      <ul>
+                        <li><a class="has-text-grey-dark" href="#7">JavaScript</a></li>
+                        <li><a class="has-text-grey-dark" href="#8">Отпечатки браузера</a></li>
+                      </ul>
+                  </li>
+                </li>
+          </a>
+        </ul>    	
+    </aside>
+</div></div>
+		<div class="column2"><section class="section">
+		<div class="layout">
+    <div class="container">
+      <h1 id = "0" class="title">
+        Парсинг сайтов
+      </h1>
+      <p class="subtitle">
+        И способы защиты от него
+      </p>
+    </div>
+  </section>
+  <img src="img/1.jpg" alt="">
+  <div class="content">
+  <div class="sonata-blog-post-content">
+<p>Парсинг – это процесс автоматического сбора информации в интернете. Может показаться, что получение доступа к данным не будет проблемой даже у автоматизированных инструментов, но это не так. Сегодня мы расскажем, как компании защищают свои сайты от&nbsp;парсинга&nbsp;и как обойти эту защиту.<br>
+Самый распространённый способ использования&nbsp;парсера&nbsp;в сфере интернет-коммерции – это ценовой анализ и мониторинг рынка. Не все конкуренты хотят давать вам такую возможность, у них есть множество способов незаметного распознавания ботов и&nbsp;парсеров, но каждую защиту можно обойти.</p><section class="sections start-parsing">
+
+<h2 id="11">Механизмы защиты от&nbsp;парсеров</h2>
+
+<p>Защита от ботов создана для блокировки их работы на сайте, они могут отличать&nbsp;парсеры&nbsp;от реальных людей несколькими способами, это позволяет смягчать DDOS атаки и мошеннических схем, но в нашем случае мы просто собираем информацию и не хотим причинять никакого вреда.<br>
+Суть любой защиты заключается в разделении запросов роботов и реальных людей, в этом разделе мы рассмотрим все способы, которыми можно отследить&nbsp;парсеры&nbsp;на веб-сайтах.</p>
+
+<h3 id="2">Проверка заголовка</h3>
+
+<p>Вместе с запросом на сервер браузер так же отправляет заголовок, который выглядит по-разному для каждого браузера. Например, так выглядит заголовок Chrome.&nbsp;Парсер&nbsp;можно легко распознать, если шаблон заголовка не соответствует обычному браузеру.</p>
+
+<p><a class="popup-delegate" href="/upload/media/default/0001/01/0afd415f3e417b24e584f7e456cb0f1ec1fcdff9.jpg"><img alt="" src="/upload/media/default/0001/01/0afd415f3e417b24e584f7e456cb0f1ec1fcdff9.jpg"></a></p>
+
+<h3 id="3">Отпечатки TCP/IP</h3>
+
+<p>Более сложный способ распознание&nbsp;парсеров&nbsp;– это обнаружение отпечатков TCP/IP. TCP – это один из основных протоколов интернета, отвечающий за транспортировку данных, он так же оставляет множество сопутствующих параметров, например, начальное состояние окна. Если эти значения параметров не будут совпадать, доступ будет ограничен. Например, отправка запроса от имени Chrome с сервера на linux ожидаемый TTL будет отличаться от актуального.</p>
+
+<p><a class="popup-delegate" href="/upload/media/default/0001/01/5a177f29b1522331ea69f9a6b4c8adb7a4cef436.png"><img alt="" src="/upload/media/default/0001/01/5a177f29b1522331ea69f9a6b4c8adb7a4cef436.png"></a></p>
+
+<h3 id="4">Блокировка IP</h3>
+
+<p>Если один IP-адрес будет неоднократно уличён в отправке нечеловеческих запросов, то его могут просто заблокировать. Это ограничение легко обходится при помощи прокси серверов, или других инструментов, изменяющих ваш ip.</p>
+
+<p><a class="popup-delegate" href="/upload/media/default/0001/01/0611e2e316cc9d89aa5d2683e5da898461ddb531.png"><img alt="" src="/upload/media/default/0001/01/0611e2e316cc9d89aa5d2683e5da898461ddb531.png"></a></p>
+
+<h3 id = "5" >Геоблокировка</h3>
+
+<p>Некоторые сайты могут блокировать запрос, который исходит из определённого региона. Похожая проблема может возникнуть, если в зависимости от региона меняется контент. Эти сложности так же легко решаются при помощи прокси.</p>
+
+<h2 id="12">Обнаружение&nbsp;парсера&nbsp;на&nbsp;фронтэнде</h2>
+
+<p>Помимо обнаружения&nbsp;парсера&nbsp;на серверной части, его так же могут распознать и во внешнем интерфейсе.</p>
+
+<h3 id="6">JavaScript</h3>
+
+<p>Этот язык программирования вшит в каждый браузер, он позволяет современным сайтам корректно отображаться и функционировать. Если ваш&nbsp;парсер&nbsp;не может корректно&nbsp;рендерить&nbsp;JS, то его будет легко обнаружить. Всё может дойти до того, что сайт может заставлять выполнять ваш&nbsp;парсер&nbsp;простые арифметические операции, просто что бы проверить возможность работы с JS. JavaScript так же можно использовать для AJAX запросов и отложений загрузки. Что бы не быть раскрытым, запросы&nbsp;парсера&nbsp;должны отправляться с обработкой JS. В противном случае кроме блокировки вы рискуете не увидеть часть контента.</p>
+
+<h3 id="7">Отпечатки браузера</h3>
+
+<p>Отпечаток браузера – это комбинация из свойств и атрибутов, создающих его портрет. Он содержит информацию об ОС, устройствах, акселерометре, WebGL, хосте и о многом другом. Если в этом наборе информации будут присутствовать не состыковки,&nbsp;парсер&nbsp;могут заблокировать.</p>
+
+<p><a class="popup-delegate" href="/upload/media/default/0001/01/a529bfca78a6d67573b88106b49d0b7a170e0961.png"><img alt="" src="/upload/media/default/0001/01/a529bfca78a6d67573b88106b49d0b7a170e0961.png"></a></p>
+
+<h3 id="8">Captcha и Recaptcha</h3>
+
+<p>Сейчас происходит постоянная гонка визуальных головоломок и искусственного интеллекта, и если раньше алгоритмы машинного обучения не могли справиться с их решением, то сейчас&nbsp;капчи&nbsp;приходится делать всё более и более сложными. Всё доходит до того, что вместо решения загадок сайты смотрят на поведение пользователей, которое в корне отличается от поведения машины. Движение мыши и щелчки, поиск пути к нужной информации, время, проведённое на странице и начинают показывать&nbsp;капчи&nbsp;только после ряда действий. Поэтому вместо борьбы с&nbsp;капчами, вы просто можете понять, что вызывает их появление.</p>
+
+<p><a class="popup-delegate" href="/upload/media/default/0001/01/7ecbc71376107bb1b3a610fc8eac2bb1a67286b1.png"><img alt="" src="/upload/media/default/0001/01/7ecbc71376107bb1b3a610fc8eac2bb1a67286b1.png"></a></p>
+</div>
+<div style="display: none">
+ </div>
+                        </article>
+              </div>
+  	<p>Парсинг – это процесс автоматического сбора информации в интернете. Может показаться, что получение доступа к данным не будет проблемой даже у автоматизированных инструментов, но это не так. Сегодня мы расскажем, как компании защищают свои сайты от парсинга и как обойти эту защиту.
+  	Самый распространённый способ использования парсера в сфере интернет-коммерции – это ценовой анализ и мониторинг рынка. Не все конкуренты хотят давать вам такую возможность, у них есть множество способов незаметного распознавания ботов и парсеров, но каждую защиту можно обойти.</p>
+  </div>
+  </div> </div>
+	</div>
+
+
+
+	
+
+<nav class="pagination is-centered" role="navigation" aria-label="pagination">
+    
+  <a class="pagination-previous">Предыдущая</a>
+  <a class="pagination-next">Следующая</a>
+  <ul class="pagination-list">
+    <li><a class="pagination-link" aria-label="Goto page 1" href=index1.html>1</a></li>
+   
+    
+    <li><a class="pagination-link is-current" aria-label="Page 2" aria-current="page">2</a></li>
+    <li><a class="pagination-link" aria-label="Goto page 3" href=index3.html>3</a></li>
+    <li><span class="pagination-ellipsis">&hellip;</span></li>
+    <li><a class="pagination-link" aria-label="Goto page 10">10</a></li>
+  </ul>
+</nav>
+  
+<a href="#" title="Вернуться к началу" class="topbutton">^Наверх</a>
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+    </p>
+  </div>
+</footer>
+</body>
+</html>
